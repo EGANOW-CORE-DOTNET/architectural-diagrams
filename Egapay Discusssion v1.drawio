@@ -1,0 +1,123 @@
+<mxfile host="Electron" modified="2024-05-15T13:24:46.220Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.4.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="1jE1C2gY1SD3XvZs0AzK" version="24.4.0" type="device">
+  <diagram name="Page-1" id="xjvO9sCeUtCyjEZ_CJoX">
+    <mxGraphModel dx="1434" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hpMdCuRr0D7u2F-QPZwM-1" target="hpMdCuRr0D7u2F-QPZwM-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="210" />
+              <mxPoint x="650" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-7" value="Requests authorization (JWT)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hpMdCuRr0D7u2F-QPZwM-6">
+          <mxGeometry x="0.0524" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hpMdCuRr0D7u2F-QPZwM-1" target="hpMdCuRr0D7u2F-QPZwM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-14" value="Request for collection&amp;nbsp;&lt;div&gt;on behalf of a customer&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hpMdCuRr0D7u2F-QPZwM-13">
+          <mxGeometry x="-0.1133" y="2" relative="1" as="geometry">
+            <mxPoint x="-52" y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-1" value="Merchant" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-2" value="Auth Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-3" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="370" y="20" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hpMdCuRr0D7u2F-QPZwM-2" target="hpMdCuRr0D7u2F-QPZwM-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-5" value="Stores token&amp;nbsp; for user" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hpMdCuRr0D7u2F-QPZwM-4">
+          <mxGeometry x="-0.1263" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1.006;entryY=0.917;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hpMdCuRr0D7u2F-QPZwM-2" target="hpMdCuRr0D7u2F-QPZwM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-9" value="Receives JWT" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hpMdCuRr0D7u2F-QPZwM-8">
+          <mxGeometry x="0.0743" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="hpMdCuRr0D7u2F-QPZwM-12" target="hpMdCuRr0D7u2F-QPZwM-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-16" value="Receives the&lt;br&gt;status of the transaction with&amp;nbsp;&lt;br&gt;pending status state" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hpMdCuRr0D7u2F-QPZwM-15">
+          <mxGeometry x="0.2067" relative="1" as="geometry">
+            <mxPoint x="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hpMdCuRr0D7u2F-QPZwM-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-29" value="Sends HTTP request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hpMdCuRr0D7u2F-QPZwM-27">
+          <mxGeometry x="0.0374" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-12" value="Collection API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hpMdCuRr0D7u2F-QPZwM-20" target="hpMdCuRr0D7u2F-QPZwM-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-30" value="Receives initial response" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hpMdCuRr0D7u2F-QPZwM-28">
+          <mxGeometry x="0.0444" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hpMdCuRr0D7u2F-QPZwM-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-33" value="Sends callback response&lt;br&gt;with final status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hpMdCuRr0D7u2F-QPZwM-32">
+          <mxGeometry x="0.0474" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-20" value="Pay Partner Service&lt;br&gt;(MTN)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="540" width="340" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hpMdCuRr0D7u2F-QPZwM-31" target="hpMdCuRr0D7u2F-QPZwM-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-37" value="Produce callback message&lt;br&gt;to topic&lt;br&gt;(callback response)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hpMdCuRr0D7u2F-QPZwM-36">
+          <mxGeometry x="0.0028" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-31" value="EgaPay&amp;nbsp;&lt;div&gt;MTN Callback&lt;br&gt;Service&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="370" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hpMdCuRr0D7u2F-QPZwM-34" target="hpMdCuRr0D7u2F-QPZwM-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-39" value="Consume messages&lt;br&gt;from topic&lt;br&gt;(callback response)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hpMdCuRr0D7u2F-QPZwM-38">
+          <mxGeometry x="-0.2772" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-34" value="EgaPay&lt;br&gt;Core Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="130" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hpMdCuRr0D7u2F-QPZwM-35" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.managed_streaming_for_kafka;" vertex="1" parent="1">
+          <mxGeometry x="870" y="302" width="78" height="78" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
